@@ -18,94 +18,69 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="ParecerPersistencia.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="-0.25098553">
-                    <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Nota.java" pinned="false" current-in-tab="false">
-              <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Nota.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Pontuacao.java" pinned="false" current-in-tab="false">
-              <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Pontuacao.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="persistencia" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResolucaoPersistenciaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testes/ResolucaoPersistenciaTest.java">
+      <file leaf-file-name="ParecerPersistenciaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/persistencia/ParecerPersistenciaTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
+              <caret line="214" column="76" selection-start-line="214" selection-start-column="76" selection-end-line="214" selection-end-column="76" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#594#602#0" expanded="true" />
-                <element signature="e#651#658#0" expanded="true" />
-                <element signature="e#4513#4519#0" expanded="true" />
-                <element signature="method#getResolucao2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-                <element signature="method#getResolucao1_IdNull#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-                <element signature="method#getTipo1#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-                <element signature="e#7904#7914#0" expanded="true" />
-                <element signature="method#getTipo2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-                <element signature="e#8438#8448#0" expanded="true" />
-                <element signature="method#getTipo3#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-                <element signature="e#8972#8982#0" expanded="true" />
+                <element signature="method#getParecer#0;class#ParecerPersistenciaTest#0" expanded="false" />
+                <element signature="method#getListaDeIdsRadocs#0;class#ParecerPersistenciaTest#0" expanded="false" />
+                <element signature="method#getListaDePontuacoes#0;class#ParecerPersistenciaTest#0" expanded="false" />
+                <element signature="method#getListadeNotas#0;class#ParecerPersistenciaTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParecerPersistenciaTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testes/ParecerPersistenciaTest.java">
+      <file leaf-file-name="Nota.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Nota.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5207182">
-              <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParecerPersistencia.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6346667">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#509#517#0" expanded="true" />
-                <element signature="e#566#573#0" expanded="true" />
-                <element signature="e#1764#1772#0" expanded="true" />
-                <element signature="e#1889#1900#0" expanded="true" />
-                <element signature="e#2424#2564#0" expanded="true" />
-                <element signature="e#2563#2564#0" expanded="true" />
-                <element signature="e#2595#2736#0" expanded="true" />
-                <element signature="e#2735#2736#0" expanded="true" />
-                <element signature="e#2828#2834#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#3422#3423#0" expanded="true" />
+                <element signature="e#3479#3480#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Avaliavel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Avaliavel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Radoc.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Radoc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +89,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Parecer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -125,8 +100,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -141,16 +116,20 @@
         <option value="$PROJECT_DIR$/src/main/java/ParecerPersistencia.java" />
         <option value="$PROJECT_DIR$/src/main/java/Conexao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ResolucaoPersistencia.java" />
-        <option value="$PROJECT_DIR$/src/main/java/persistencia/Conexao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/ParecerPersistenciaTest.groovy" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testes/testResolucaoPersistencia.java" />
         <option value="$PROJECT_DIR$/src/main/java/persistencia/ResolucaoPersistenciaTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/persistencia/Persistencia.java" />
-        <option value="$PROJECT_DIR$/src/main/java/persistencia/ResolucaoPersistencia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persistencia/Conexao.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/ResolucaoPersistenciaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/ParecerPersistenciaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/persistencia/ParecerPersistenciaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/persistencia/ResolucaoPersistenciaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persistencia/ResolucaoPersistencia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persistencia/Persistencia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/persistencia/ResolucaoPersistenciaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/persistencia/ParecerPersistenciaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java" />
       </list>
     </option>
   </component>
@@ -202,9 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,6 +191,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistencia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: junit:junit:4.12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -307,7 +297,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistencia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistencia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistencia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,14 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,6 +373,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,28 +390,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="testes" />
       <recent name="persistencia" />
+      <recent name="testes" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResolucaoPersistenciaTest.testeTiposPeloNome">
-    <configuration default="false" name="ResolucaoPersistenciaTest.testePersisteTipo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParecerPersistenciaTest.testePersisteParecer">
+    <configuration default="false" name="ParecerPersistenciaTest.testeRemoveNota" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="testes.*" />
+          <option name="PATTERN" value="persistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="persistencia" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ResolucaoPersistenciaTest" />
-      <option name="METHOD_NAME" value="testePersisteTipo" />
+      <option name="PACKAGE_NAME" value="persistencia" />
+      <option name="MAIN_CLASS_NAME" value="persistencia.ParecerPersistenciaTest" />
+      <option name="METHOD_NAME" value="testeRemoveNota" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -414,19 +425,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ResolucaoPersistenciaTest.testeRemove_retornoNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ParecerPersistenciaTest.testePersisteParecer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="testes.*" />
+          <option name="PATTERN" value="persistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="persistencia" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ResolucaoPersistenciaTest" />
-      <option name="METHOD_NAME" value="testeRemove_retornoNulo" />
+      <option name="PACKAGE_NAME" value="persistencia" />
+      <option name="MAIN_CLASS_NAME" value="persistencia.ParecerPersistenciaTest" />
+      <option name="METHOD_NAME" value="testePersisteParecer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -440,19 +451,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ResolucaoPersistenciaTest.testePersiste_identificadorExistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ParecerPersistenciaTest.testeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="testes.*" />
+          <option name="PATTERN" value="persistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="persistencia" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ResolucaoPersistenciaTest" />
-      <option name="METHOD_NAME" value="testePersiste_identificadorExistente" />
+      <option name="PACKAGE_NAME" value="persistencia" />
+      <option name="MAIN_CLASS_NAME" value="persistencia.ParecerPersistenciaTest" />
+      <option name="METHOD_NAME" value="testeById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -466,19 +477,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ResolucaoPersistenciaTest.testeById_retornoNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ParecerPersistenciaTest.testeAtualizaFundamentacao_ParecerInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="testes.*" />
+          <option name="PATTERN" value="persistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="persistencia" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ResolucaoPersistenciaTest" />
-      <option name="METHOD_NAME" value="testeById_retornoNulo" />
+      <option name="PACKAGE_NAME" value="persistencia" />
+      <option name="MAIN_CLASS_NAME" value="persistencia.ParecerPersistenciaTest" />
+      <option name="METHOD_NAME" value="testeAtualizaFundamentacao_ParecerInexistente" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -492,19 +503,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ResolucaoPersistenciaTest.testeTiposPeloNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ParecerPersistenciaTest.testRemoveParecer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="testes.*" />
+          <option name="PATTERN" value="persistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="persistencia" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ResolucaoPersistenciaTest" />
-      <option name="METHOD_NAME" value="testeTiposPeloNome" />
+      <option name="PACKAGE_NAME" value="persistencia" />
+      <option name="MAIN_CLASS_NAME" value="persistencia.ParecerPersistenciaTest" />
+      <option name="METHOD_NAME" value="testRemoveParecer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -941,19 +952,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testePersisteTipo" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeRemove_retornoNulo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testePersiste_identificadorExistente" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeById_retornoNulo" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeTiposPeloNome" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeRemoveNota" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testePersisteParecer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeAtualizaFundamentacao_ParecerInexistente" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testRemoveParecer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeTiposPeloNome" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeById_retornoNulo" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testePersiste_identificadorExistente" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testeRemove_retornoNulo" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ResolucaoPersistenciaTest.testePersisteTipo" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testePersisteParecer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testRemoveParecer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeAtualizaFundamentacao_ParecerInexistente" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParecerPersistenciaTest.testeRemoveNota" />
       </list>
     </recent_temporary>
   </component>
@@ -970,44 +981,46 @@
       <workItem from="1467978744126" duration="4260000" />
       <workItem from="1468237090832" duration="7008000" />
       <workItem from="1468321012167" duration="13821000" />
-      <workItem from="1468342243543" duration="11700000" />
+      <workItem from="1468342243543" duration="12149000" />
+      <workItem from="1468408562796" duration="1160000" />
+      <workItem from="1468493662582" duration="18304000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResolucaoPersistenciaTest_testeById_retornoNulo - 2016.07.12 at 15h 38m 45s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeById_retornoNulo" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testRemoveParecer - 2016.07.14 at 13h 08m 34s.xml">
+      <configuration name="ParecerPersistenciaTest.testRemoveParecer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testePersisteTipo - 2016.07.12 at 15h 38m 29s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testePersisteTipo" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testRemoveRadoc - 2016.07.14 at 11h 59m 38s.xml">
+      <configuration name="ParecerPersistenciaTest.testRemoveRadoc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testePersiste_identificadorExistente - 2016.07.12 at 15h 38m 42s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testePersiste_identificadorExistente" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testeAtualizaFundamentacao_ParecerInexistente - 2016.07.14 at 13h 07m 57s.xml">
+      <configuration name="ParecerPersistenciaTest.testeAtualizaFundamentacao_ParecerInexistente" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeRemove_retornoNulo - 2016.07.12 at 15h 38m 38s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeRemove_retornoNulo" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testeById - 2016.07.14 at 13h 07m 32s.xml">
+      <configuration name="ParecerPersistenciaTest.testeById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTipoPeloCodigo_retornaResolucao - 2016.07.12 at 15h 38m 24s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTipoPeloCodigo_retornaResolucao" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testeById - 2016.07.14 at 13h 08m 15s.xml">
+      <configuration name="ParecerPersistenciaTest.testeById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTiposPeloNome - 2016.07.12 at 15h 41m 30s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTiposPeloNome" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testeById - 2016.07.14 at 13h 08m 22s.xml">
+      <configuration name="ParecerPersistenciaTest.testeById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTiposPeloNome - 2016.07.12 at 16h 15m 36s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTiposPeloNome" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testePersisteParecer - 2016.07.14 at 13h 05m 45s.xml">
+      <configuration name="ParecerPersistenciaTest.testePersisteParecer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTiposPeloNome - 2016.07.12 at 16h 16m 15s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTiposPeloNome" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testePersisteParecer - 2016.07.14 at 13h 06m 52s.xml">
+      <configuration name="ParecerPersistenciaTest.testePersisteParecer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTiposPeloNome - 2016.07.12 at 16h 18m 43s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTiposPeloNome" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testePersisteParecer - 2016.07.14 at 13h 09m 12s.xml">
+      <configuration name="ParecerPersistenciaTest.testePersisteParecer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResolucaoPersistenciaTest_testeTiposPeloNome - 2016.07.12 at 16h 21m 01s.xml">
-      <configuration name="ResolucaoPersistenciaTest.testeTiposPeloNome" configurationId="JUnit" />
+    <history-entry file="ParecerPersistenciaTest_testeRemoveNota - 2016.07.14 at 13h 05m 14s.xml">
+      <configuration name="ParecerPersistenciaTest.testeRemoveNota" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36789000" />
+    <option name="totallyTimeSpent" value="56702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -1015,28 +1028,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="127" y="47" width="1256" height="716" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="127" y="47" width="1256" height="716" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22552665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37422553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06815366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06815366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39900866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1052,7 +1065,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/persistencia/ParecerPersistenciaTest.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1061,23 +1082,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/ResolucaoPersistenciaTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Parecer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#594#602#0" expanded="true" />
-            <element signature="e#651#658#0" expanded="true" />
-            <element signature="e#4513#4519#0" expanded="true" />
-            <element signature="method#getResolucao2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="method#getResolucao1_IdNull#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="method#getTipo1#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#7904#7914#0" expanded="true" />
-            <element signature="method#getTipo2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#8438#8448#0" expanded="true" />
-            <element signature="method#getTipo3#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#8972#8982#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3479#3480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Parecer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3479#3480#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1094,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,9 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,11 +1152,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,9 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,11 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,13 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.814815">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1212,18 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/Conexao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0872914">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.3/saep-dominio-1.0.3-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Resolucao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39181286">
@@ -1238,26 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2669405">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Radoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7836257">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Resolucao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13403417">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8947368">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17871222">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,15 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35185185">
           <caret line="322" column="0" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Atributo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1325536">
-          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,25 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82128775">
           <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/Persistencia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33264464">
-          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ResolucaoPersistencia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7319317">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,76 +1291,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/ResolucaoPersistenciaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#602#0" expanded="true" />
-            <element signature="e#651#658#0" expanded="true" />
-            <element signature="e#4513#4519#0" expanded="true" />
-            <element signature="method#getResolucao2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="method#getResolucao1_IdNull#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="method#getTipo1#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#7904#7914#0" expanded="true" />
-            <element signature="method#getTipo2#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#8438#8448#0" expanded="true" />
-            <element signature="method#getTipo3#0;class#ResolucaoPersistenciaTest#0" expanded="false" />
-            <element signature="e#8972#8982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Nota.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Pontuacao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#1933#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1901#1902#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Atributo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25098553">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.9893758">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41566265">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/Conexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/extensions/ActiveTestSuite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7777777">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/extensions/ActiveTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14206128">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.7/gson-2.7-sources.jar!/com/google/gson/internal/ConstructorConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33147633">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/persistencia/ResolucaoPersistenciaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04735376">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#307#315#0" expanded="false" />
+            <element signature="e#364#371#0" expanded="false" />
+            <element signature="e#2678#2686#0" expanded="false" />
+            <element signature="e#4267#4273#0" expanded="false" />
+            <element signature="e#7664#7674#0" expanded="false" />
+            <element signature="e#8204#8214#0" expanded="false" />
+            <element signature="e#8744#8754#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ResolucaoPersistencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#2315#2321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar!/com/mongodb/client/MongoCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="405" column="17" selection-start-line="405" selection-start-column="17" selection-end-line="405" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/Persistencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="7" selection-start-line="205" selection-start-column="7" selection-end-line="205" selection-end-column="7" />
+          <folding>
+            <element signature="e#3476#3486#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/ParecerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4025157">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.316562">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Radoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Parecer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/ParecerPersistenciaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/persistencia/ParecerPersistenciaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5207182">
-          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="214" column="76" selection-start-line="214" selection-start-column="76" selection-end-line="214" selection-end-column="76" />
+          <folding>
+            <element signature="method#getParecer#0;class#ParecerPersistenciaTest#0" expanded="false" />
+            <element signature="method#getListaDeIdsRadocs#0;class#ParecerPersistenciaTest#0" expanded="false" />
+            <element signature="method#getListaDePontuacoes#0;class#ParecerPersistenciaTest#0" expanded="false" />
+            <element signature="method#getListadeNotas#0;class#ParecerPersistenciaTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Avaliavel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kyriosdata/saep/saep-dominio/1.0.5/saep-dominio-1.0.5-sources.jar!/br/ufg/inf/es/saep/sandbox/dominio/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistencia/ParecerPersistencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6346667">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#509#517#0" expanded="true" />
-            <element signature="e#566#573#0" expanded="true" />
-            <element signature="e#1764#1772#0" expanded="true" />
-            <element signature="e#1889#1900#0" expanded="true" />
-            <element signature="e#2424#2564#0" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#2595#2736#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2828#2834#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3479#3480#0" expanded="true" />
           </folding>
         </state>
       </provider>

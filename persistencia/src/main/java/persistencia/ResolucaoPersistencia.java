@@ -13,7 +13,7 @@ public class ResolucaoPersistencia extends Persistencia implements ResolucaoRepo
 
     private final Gson gson = new Gson();
 
-    public ResolucaoPersistencia(MongoDatabase banco) {
+    ResolucaoPersistencia(MongoDatabase banco) {
         super(banco);
     }
 
@@ -29,15 +29,14 @@ public class ResolucaoPersistencia extends Persistencia implements ResolucaoRepo
     @Override
     public String persiste(Resolucao resolucao) {
 
-        if (resolucao.getId() == "") throw new CampoExigidoNaoFornecido("id");
+        if (resolucao.getId().equals("")) throw new CampoExigidoNaoFornecido("id");
         else {
             if (count("id", resolucao.getId(), getColecaoDeResolucoes()) == 0) {
 
-                persist(gson.toJson(resolucao),getColecaoDeResolucoes());
+                persist(gson.toJson(resolucao), getColecaoDeResolucoes());
                 return resolucao.getId();
             } else {
                 throw new IdentificadorExistente("id");
-                //return null; //?
             }
         }
     }
@@ -57,15 +56,13 @@ public class ResolucaoPersistencia extends Persistencia implements ResolucaoRepo
     @Override
     public void persisteTipo(Tipo tipo) {
         String id = tipo.getId();
-        //Se não houverem outros tipos de mesmo id, persistir:
         List<String> listaIdsTipos = distinct("id", getColecaoDeTipos());
         boolean jaExiste = false;
         for (String idPresenteNoBanco : listaIdsTipos) {
-            //System.out.println("Id salvo: " + idPresenteNoBanco);
             if (idPresenteNoBanco.equals(id)) jaExiste = true;
         }
         if (jaExiste) throw new IdentificadorExistente("id");
-        else persist(gson.toJson(tipo),getColecaoDeTipos());
+        else persist(gson.toJson(tipo), getColecaoDeTipos());
     }
 
     @Override
@@ -83,7 +80,7 @@ public class ResolucaoPersistencia extends Persistencia implements ResolucaoRepo
     public List<Tipo> tiposPeloNome(String s) {
         List<Tipo> listaTipos = new ArrayList<Tipo>();
         List<Document> listaDocumentos = findSimilars("nome", s, getColecaoDeTipos());
-        for (Document documento : listaDocumentos){
+        for (Document documento : listaDocumentos) {
             listaTipos.add(gson.fromJson(gson.toJson(documento), Tipo.class));
         }
 

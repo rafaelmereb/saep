@@ -1,27 +1,17 @@
-package testes;
+package persistencia;
 
-import br.ufg.inf.es.saep.sandbox.dominio.*;
-import com.mongodb.client.MongoCollection;
-import org.bson.Document;
 import org.junit.*;
-import persistencia.Conexao;
-import persistencia.Persistencia;
-import persistencia.ParecerPersistencia;
-import persistencia.ResolucaoPersistencia;
+import br.ufg.inf.es.saep.sandbox.dominio.*;
 
 import java.util.*;
 
-
-import static org.junit.Assert.*;
-
 /**
- * Created by RAFAEL-OOBJ on 12/07/2016.
+ * Created by RAFAEL-OOBJ on 14/07/2016.
  */
 public class ResolucaoPersistenciaTest {
 
     Conexao conexao;
     ResolucaoPersistencia resPersistencia;
-    ParecerPersistencia parPersistencia;
     List<String> dependeDe = new ArrayList<String>();
     List<Regra> listaDeRegras = new ArrayList<Regra>();
 
@@ -29,9 +19,8 @@ public class ResolucaoPersistenciaTest {
     public void setUp() throws Exception {
         conexao = new Conexao();
         resPersistencia = new ResolucaoPersistencia(conexao.receberBanco());
-
-        resPersistencia.removeAll(resPersistencia.getColecaoDeResolucoes());
         resPersistencia.removeAll(resPersistencia.getColecaoDePareceres());
+        resPersistencia.removeAll(resPersistencia.getColecaoDeResolucoes());
         resPersistencia.removeAll(resPersistencia.getColecaoDeTipos());
     }
 
@@ -66,8 +55,11 @@ public class ResolucaoPersistenciaTest {
     @Test(expected = CampoExigidoNaoFornecido.class)
     public void testePersiste_campoExigidoNaoFornecido() {
         //Verificar porque está retornando "nome"
-        try{resPersistencia.persiste(getResolucao1_IdNull());}
-        catch(CampoExigidoNaoFornecido ex){ Assert.assertEquals("id", ex.getMessage());}
+        try {
+            resPersistencia.persiste(getResolucao1_IdNull());
+        } catch (CampoExigidoNaoFornecido ex) {
+            Assert.assertEquals("id", ex.getMessage());
+        }
     }
 
     @Ignore
@@ -78,12 +70,12 @@ public class ResolucaoPersistenciaTest {
 
 
     @Test
-    public void testeRemove_retornoNulo(){
+    public void testeRemove_retornoNulo() {
         resPersistencia.persiste(getResolucao1());
         resPersistencia.remove(getResolucao1().getId());
 
         //Se a busca pelo id ter resultado nulo, a remoção foi um sucesso:
-        Assert.assertEquals(null ,resPersistencia.byId(getResolucao1().getId()) );
+        Assert.assertEquals(null, resPersistencia.byId(getResolucao1().getId()));
     }
 
     @Test
@@ -111,7 +103,7 @@ public class ResolucaoPersistenciaTest {
 
     @Test
     public void testeRemoveTipo() throws Exception {
-       //Adicionando objetos:
+        //Adicionando objetos:
         resPersistencia.persisteTipo(getTipo1());
 
 
@@ -124,9 +116,9 @@ public class ResolucaoPersistenciaTest {
     }
 
     @Test
-    public void testeTipoPeloCodigo_retornaResolucao(){
-       resPersistencia.persisteTipo(getTipo1());
-       Assert.assertEquals(getTipo1(), resPersistencia.tipoPeloCodigo(getTipo1().getId()));
+    public void testeTipoPeloCodigo_retornaResolucao() {
+        resPersistencia.persisteTipo(getTipo1());
+        Assert.assertEquals(getTipo1(), resPersistencia.tipoPeloCodigo(getTipo1().getId()));
     }
 
     @Test
@@ -146,7 +138,7 @@ public class ResolucaoPersistenciaTest {
         listaTiposSimilares.add(getTipo3()); // Pois o tipo3 possui 01 no nome.
 
         List<Tipo> listaObtida = resPersistencia.tiposPeloNome(getTipo1().getNome());
-        for (Tipo tipo: listaObtida){
+        for (Tipo tipo : listaObtida) {
             System.out.println("Similar a " + getTipo1().getNome() + ": " + tipo.getNome() + " (Objeto: " + tipo.getId() + ")");
         }
         Assert.assertEquals(listaTiposSimilares, listaObtida);
@@ -179,6 +171,7 @@ public class ResolucaoPersistenciaTest {
                 listaDeRegras       // regras
         ));
     }
+
     public Resolucao getResolucao2() {
         //Objeto 2
         Regra regra2 = new Regra(
@@ -205,6 +198,7 @@ public class ResolucaoPersistenciaTest {
                 listaDeRegras      // regras
         );
     }
+
     public Resolucao getResolucao1_IdNull() {
         //Objeto 1
         Regra regra1 = new Regra(
@@ -232,10 +226,11 @@ public class ResolucaoPersistenciaTest {
                 listaDeRegras       // regras
         ));
     }
-    public Tipo getTipo1(){
+
+    public Tipo getTipo1() {
         Set<Atributo> listaDeAtributos = new HashSet<Atributo>();
-        Atributo atributo1 = new Atributo("atributo1","Este e o atributo1",Atributo.LOGICO);
-        Atributo atributo2 = new Atributo("atributo2","Este e o atributo2",Atributo.STRING);
+        Atributo atributo1 = new Atributo("atributo1", "Este e o atributo1", Atributo.LOGICO);
+        Atributo atributo2 = new Atributo("atributo2", "Este e o atributo2", Atributo.STRING);
         listaDeAtributos.add(atributo1);
         listaDeAtributos.add(atributo2);
 
@@ -246,10 +241,11 @@ public class ResolucaoPersistenciaTest {
                 listaDeAtributos
         );
     }
-    public Tipo getTipo2(){
+
+    public Tipo getTipo2() {
         Set<Atributo> listaDeAtributos = new HashSet<Atributo>();
-        Atributo atributo1 = new Atributo("atributo3","Este e o atributo3",Atributo.LOGICO);
-        Atributo atributo2 = new Atributo("atributo4","Este e o atributo4",Atributo.STRING);
+        Atributo atributo1 = new Atributo("atributo3", "Este e o atributo3", Atributo.LOGICO);
+        Atributo atributo2 = new Atributo("atributo4", "Este e o atributo4", Atributo.STRING);
         listaDeAtributos.add(atributo1);
         listaDeAtributos.add(atributo2);
 
@@ -260,10 +256,11 @@ public class ResolucaoPersistenciaTest {
                 listaDeAtributos
         );
     }
-    public Tipo getTipo3(){
+
+    public Tipo getTipo3() {
         Set<Atributo> listaDeAtributos = new HashSet<Atributo>();
-        Atributo atributo1 = new Atributo("atributo5","Este e o atributo5",Atributo.LOGICO);
-        Atributo atributo2 = new Atributo("atributo6","Este e o atributo6",Atributo.STRING);
+        Atributo atributo1 = new Atributo("atributo5", "Este e o atributo5", Atributo.LOGICO);
+        Atributo atributo2 = new Atributo("atributo6", "Este e o atributo6", Atributo.STRING);
         listaDeAtributos.add(atributo1);
         listaDeAtributos.add(atributo2);
 
