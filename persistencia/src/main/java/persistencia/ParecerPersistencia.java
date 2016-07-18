@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ParecerPersistencia extends Persistencia implements ParecerRepository {
 
-    private final Gson gson = new Gson();
+    private final Gson gson = new GsonBuilder().registerTypeAdapter(Nota.class, new Persistencia.NotaDeserializer()).create();
 
     ParecerPersistencia(MongoDatabase banco) {
         super(banco);
@@ -49,25 +49,9 @@ public class ParecerPersistencia extends Persistencia implements ParecerReposito
         if (count("id", parecer.getId(), getColecaoDePareceres()) > 0) {
             throw new IdentificadorDesconhecido("Parecer com identificador " + parecer + " nao encontrado!");
         } else {
-            /*
-            List<Nota> notas = parecer.getNotas();
-            for (nota: notas) {
 
-            }*/
             String parecerJSON = gson.toJson(parecer);
-            /*
-            List tipoNota = new ArrayList<>();
-            JsonElement jelem = new JsonParser().parse(parecerJSON);
-            JsonObject jobj = jelem.getAsJsonObject();
-            JsonArray jarray = jobj.get("notas").getAsJsonArray();
-            jarray.forEach(notaJSONElem -> {
-                JsonObject notaObj = notaJSONElem.getAsJsonObject();
-                notaObj instanceof ;
-                String str = notaObj.get("original").toString();
 
-                str += "classe: sadasdsa" + str;
-                //avaliavel pode ser pontuacao ou relato
-            });*/
             persist(parecerJSON, getColecaoDePareceres());
         }
     }

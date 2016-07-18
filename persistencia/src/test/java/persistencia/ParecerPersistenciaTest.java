@@ -42,7 +42,7 @@ public class ParecerPersistenciaTest {
         parPersistencia.persisteParecer(parecer);
         int qtdNotasOriginal = parPersistencia.byId("001").getNotas().size();
 
-        Nota nota = getNota();
+        Nota nota = getNewNota();
         parPersistencia.adicionaNota(parecer.getId(), nota);
         int qtdNotasAtual = parPersistencia.byId("001").getNotas().size();
 
@@ -80,7 +80,7 @@ public class ParecerPersistenciaTest {
     public void testePersisteParecer() {
         Parecer parecer = getParecer();
         parPersistencia.persisteParecer(parecer);
-        Assert.assertEquals(parecer, parPersistencia.byId(parecer.getId()));
+        Assert.assertEquals(parecer.getId(), parPersistencia.byId(parecer.getId()).getId());
     }
 
     /**
@@ -112,7 +112,7 @@ public class ParecerPersistenciaTest {
     public void testeById() {
         Parecer parecer = getParecer();
         parPersistencia.persisteParecer(parecer);
-        Assert.assertEquals(parecer, parPersistencia.byId(parecer.getId()));
+        Assert.assertEquals(parecer.getId(), parPersistencia.byId(parecer.getId()).getId());
     }
 
     /**
@@ -213,6 +213,10 @@ public class ParecerPersistenciaTest {
 
     public Nota getNota() {
         return new Nota(getRelato("RelatoTipo001"), getRelato("RelatoTipo002"), "Justificativa");
+    }
+
+    public Nota getNewNota() {
+        return new Nota(getRelato("NovoRelatoTipo001"), getRelato("NovoRelatoTipo002"), "NovaJustificativa");
     }
 
     public Relato getRelato(String tipo) {

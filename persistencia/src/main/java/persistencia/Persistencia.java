@@ -1,11 +1,18 @@
 package persistencia;
 
+
+import br.ufg.inf.es.saep.sandbox.dominio.Avaliavel;
+import br.ufg.inf.es.saep.sandbox.dominio.Nota;
+import br.ufg.inf.es.saep.sandbox.dominio.Pontuacao;
+import br.ufg.inf.es.saep.sandbox.dominio.Relato;
+import com.google.gson.*;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+import com.mongodb.util.JSON;
 
 /**
  * Created by Rafa.
@@ -30,7 +37,9 @@ public class Persistencia {
         return colecaoDeTipos;
     }
 
-    public String getColecaoDePareceres() { return colecaoDePareceres;}
+    public String getColecaoDePareceres() {
+        return colecaoDePareceres;
+    }
 
     public String getColecaoDeRadocs() {
         return colecaoDeRadocs;
@@ -196,7 +205,7 @@ public class Persistencia {
     void pull(String atributoId, String valor, Document documentoParaRemocao, String nomeColecao) {
         MongoCollection<Document> colecao = receberColecao(nomeColecao);
         Document pull = new Document("$pull", documentoParaRemocao);
-        colecao.updateOne(new Document().append(atributoId, valor), documentoParaRemocao);
+        colecao.updateOne(find(atributoId, valor, nomeColecao), documentoParaRemocao);
     }
 
     /**
@@ -209,5 +218,31 @@ public class Persistencia {
         colecao.drop();
     }
 
+    static class NotaDeserializer implements JsonDeserializer<Nota> {
 
+
+        @Override
+        public Nota deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
+            JsonObject original = json.getAsJsonObject().get("original").getAsJsonObject();
+            JsonObject novo = json.getAsJsonObject().get("novo").getAsJsonObject();
+            String justificativa = json.getAsJsonObject().get("justificativa").getAsString();
+
+            Gson gson = new Gson();
+            Avaliavel originalAvaliavel;
+            if (original.has("atributo") && original.has("valor")) {
+                originalAvaliavel = gson.fromJson(original, Pontuacao.class);
+            } else {
+                originalAvaliavel = gson.fromJson(original, Relato.class);
+            }
+
+            Avaliavel novoAvaliavel;
+            if (novo.has("atributo") && novo.has("valor")) {
+                novoAvaliavel = gson.fromJson(novo, Pontuacao.class);
+            } else {
+                novoAvaliavel = gson.fromJson(novo, Relato.class);
+            }
+
+            return new Nota(originalAvaliavel, novoAvaliavel, justificativa);
+        }
+    }
 }
